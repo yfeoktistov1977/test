@@ -28,13 +28,10 @@
 	"buffers":
 	[
 		{
-			"contents": "#include <stdio.h>\n#include<iostream>\n#include<vector>\n\nusing namespace std;\n\nint main()\n{\n\tvector<int> v;\n\tprintf(\"wwww ww w ww w w w w w \\n\" );\n\n\treturn 0;\n}",
 			"file": "test1.cpp",
-			"file_size": 160,
-			"file_write_time": 132142428080877207,
 			"settings":
 			{
-				"buffer_size": 159,
+				"buffer_size": 173,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "void main()"
@@ -139,7 +136,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 159,
+						"buffer_size": 173,
 						"regions":
 						{
 						},
