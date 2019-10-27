@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40553E53234A29EB003B1066 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40553E52234A29EB003B1066 /* main.cpp */; };
+		40553E5A234A2C7D003B1066 /* test_stl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40553E59234A2C7D003B1066 /* test_stl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		40553E4F234A29EB003B1066 /* test_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		40553E52234A29EB003B1066 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		40553E59234A2C7D003B1066 /* test_stl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_stl.cpp; sourceTree = "<group>"; };
+		4088B6922351A3B400AAC7F8 /* test_stl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_stl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		40553E51234A29EB003B1066 /* test_xcode */ = {
 			isa = PBXGroup;
 			children = (
+				40553E59234A2C7D003B1066 /* test_stl.cpp */,
 				40553E52234A29EB003B1066 /* main.cpp */,
+				4088B6922351A3B400AAC7F8 /* test_stl.h */,
 			);
 			path = test_xcode;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40553E53234A29EB003B1066 /* main.cpp in Sources */,
+				40553E5A234A2C7D003B1066 /* test_stl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

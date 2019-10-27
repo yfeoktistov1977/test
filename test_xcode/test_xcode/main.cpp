@@ -7,11 +7,16 @@
 //
 
 #include <iostream>
+#include "test_stl.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
     std::cout << "Hello, World!\n";
+    
+    test_stl();
+    permute("123", 0, 3);
+    
     return 0;
     
 }
