@@ -31,7 +31,15 @@ p {
     text-indent: 2.5em; /* Отступ первой строки */
     text-align: justify; /* Выравнивание по ширине */
  }
+
  .img-test {
+    max-width: 175px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.img-tutor {
     max-width: 175px;
     max-height: 150px;
     width: 100%;
