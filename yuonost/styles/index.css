@@ -40,8 +40,8 @@ p {
 }
 
 .img-down {
-    max-width: 175px;
-    max-height: 150px;
+    max-width: 150px;
+    max-height: 250px;
     width: 100%;
     height: auto;
 }
