@@ -32,6 +32,13 @@ p {
     text-align: justify; /* Выравнивание по ширине */
  }
 
+ .img-head {
+    max-width: 175px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+}
+
  .img-test {
     max-width: 175px;
     max-height: 150px;

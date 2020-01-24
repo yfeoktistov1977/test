@@ -33,16 +33,24 @@ p {
     text-indent: 2.5em; /* Отступ первой строки */
     text-align: justify; /* Выравнивание по ширине */
  }
- .img-test {
+ 
+ .img-head {
     max-width: 175px;
     max-height: 150px;
     width: 100%;
     height: auto;
 }
 
-.img-news {
-    max-width: 175px;
+ .img-test {
+    max-width: 150px;
     max-height: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.img-news {
+    max-width: 150px;
+    max-height: 250px;
     width: 100%;
     height: auto;
 }

@@ -37,3 +37,10 @@ p {
     width: 100%;
     height: auto;
 }
+
+.img-head {
+    max-width: 175px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+}
