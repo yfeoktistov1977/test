@@ -1,29 +1,25 @@
 <?php 
 
 if(isset($_POST['submit'])){
-    $to = "yfeoktistov@yandex.ru"; // Здесь нужно написать e-mail, куда будут приходить письма
-    $from = "yfeoktistov1977@mail.ru"; // Здесь нужно написать e-mail, от кого будут приходить письма
+    $to = "info@un-moscow.ru";
+    $to_copy = "innaysemenova@yandex.ru";
+    //$from = "-f yfeoktistov1977@mail.ru"; // Здесь нужно написать e-mail, от кого будут приходить письма
     $first_name = $_POST['first_name'];
-    $subject = "Форма отправки сообщений с сайта";
-    $subject2 = "Copy of your form submission";
-    $message = "ФИО посетителя: ". $first_name . " | Адрес электронной почты: "  . $_POST['email'] . " | Комментарий: " . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $subject = "Сообщение с сайта un-moscow.ru для тренера";
+    //$subject2 = "Copy of your form submission";
+    $message = "ФИО посетителя: ". $first_name . "\n Контактный телефон "  . $_POST['phone'] . "\n Сообщение для тренера: " . $_POST['message'];
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-	
-    $mail = mail($to, $subject, $message, $headers);
-    if($mail = true) {
-       // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
-        echo "Сообщение отправлено. Спасибо Вам ! " . $first_name . ", мы скоро свяжемся с Вами.";
-    	echo "<br /><br /><a href='http://co00879.tmweb.ru/'>Вернуться на сайт.</a>";
+    mail($to_copy, $subject, $message);
+    $res = mail($to, $subject, $message);
+    if($res = true) {
+        echo "Сообщение отправлено. Спасибо Вам " . $first_name . ", мы скоро свяжемся с Вами.";
+    	echo "<br /><br /><a href='http://un-moscow.ru/'>Вернуться на сайт.</a>";
     }
-
 }
 
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
 <script language="JavaScript" type="text/javascript">
-function changeurl(){eval(self.location="http://co00879.tmweb.ru/");}
+function changeurl(){eval(self.location="http://un-moscow.ru/");}
 window.setTimeout("changeurl();",3000);
 </script>
