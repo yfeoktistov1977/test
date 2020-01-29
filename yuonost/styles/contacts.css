@@ -27,6 +27,17 @@ a[tabindex]:focus {
     outline: none;
 }
 
+a.link2 {   
+    color: rgb(255, 0, 0);   
+}
+a.link2:active {
+    color: black;
+}
+a.link2[tabindex]:focus {
+    color:black;
+    outline: none;
+}
+
 p { 
     text-indent: 2.5em; /* Отступ первой строки */
     text-align: justify; /* Выравнивание по ширине */
