@@ -1,6 +1,6 @@
 <?php 
 
-if (isset($_POST['submit']) && $_POST['btest']=='') {
+if (isset($_POST['submit']) && $_POST['name']=='') {
 	$to = "info@un-moscow.ru";
 	$to_copy = "innaysemenova@yandex.ru";
 	//$from = "-f yfeoktistov1977@mail.ru"; // Здесь нужно написать e-mail, от кого будут приходить письма
