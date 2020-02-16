@@ -1,2 +1,9 @@
 User-agent: *
 Allow: /
+
+User-agent: Yandex
+Allow: /
+Host: http://www.un-moscow.ru
+Disallow: https://www.un-moscow.ru
+
+
