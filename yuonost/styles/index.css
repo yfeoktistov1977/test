@@ -65,3 +65,10 @@ p {
     width: 100%;
     height: auto;
 }
+
+.img-dd {
+    max-width: 170px;
+    max-height: 270px;
+    width: 100%;
+    height: auto;
+}
