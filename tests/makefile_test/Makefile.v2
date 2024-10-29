@@ -1,0 +1,6 @@
+.PHONY: all
+
+all:
+	gcc aaa.c -o test1.out
+	gcc aaa2.c -o test2.out
+

@@ -1,0 +1,1 @@
+/usr/bin/make_4_4 -f Makefile
