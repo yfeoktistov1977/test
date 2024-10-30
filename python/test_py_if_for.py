@@ -6,6 +6,7 @@ def test_if():
 	user_pass = input("Enter user pass>");
 
 	print(user_pass[0:len(user_pass)-1])
+	
 	if "e" in user_pass:
 		print(" e is in your message.")
 	else:
