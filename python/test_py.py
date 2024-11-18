@@ -6,9 +6,17 @@ import test_merge_k_list
 import test_func
 import os
 import sys
-#from test_merge_k_list import MergeListHelper
-#from test_merge_k_list import ListNode
 from test_merge_k_list import *
+
+from PyQt5.QtWidgets import QApplication;
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtCore import QObject, Slot, QUrl
+from PySide6.QtWidgets import QApplication
+from PySide6.QtQml import QQmlApplicationEngine
+
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.graphics import Line, Color, Rectangle
 
 gvalue = 125
 
@@ -34,7 +42,6 @@ if __name__ == "__main__":
 
 	data_dict = { 1 : 1, 2 : 333}
 
-
 	#data_array1 = [[4,5,6], [1,3], [4,5] , [1,1], [1,3]]
 
 	#test_py_clib.use_clib()
@@ -56,6 +63,15 @@ if __name__ == "__main__":
 
 	#test_func.param_test_func("888")
 
+	choice = 1
+	match choice:
+		case 1:
+			print("Case 1 selected")
+		case 2:
+			print("Case 2 selected")
+		case _:
+			print("Default case")
+
 	#------- start>> merge k linked lists sorted by accend
 	test_list = [[1,3], [5,7], [2,6]]
 	testMergeClass = MergeListHelper()
@@ -72,4 +88,11 @@ if __name__ == "__main__":
 			break
 	#------- end merge k linked lists sorted by accend
 
+	print(f"(3)------------------")
+	my_list = [1, 2, 3, 4, 5]
+
+	squared_items = ((x + 10) for x in my_list)
+	for item in squared_items:
+    		print(item)
+	
 	print(f" End of program !")

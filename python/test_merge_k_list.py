@@ -8,6 +8,10 @@ class ListNode:
          self.val = val
          self.next = next
 class MergeListHelper:
+	@staticmethod
+	def my_static_method():
+		print("This is a static method")
+
 	def makeListFromArray(self, lists : list[int]) -> ListNode:
 		head = ListNode(lists[0], None)
 		current = head
